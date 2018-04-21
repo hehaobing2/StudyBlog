@@ -1,0 +1,7 @@
+ssh-keygen -t rsa -C "492852580@qq.com"
+ssh -T git@github.com
+git init
+git config --global user.name ""
+git config --global user.email ""
+git remote add origin git@github.com:hehaobing2/"".git
+git clone git@github.com:hehaobing2/"".git
